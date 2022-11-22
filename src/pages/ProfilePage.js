@@ -1,7 +1,7 @@
 import { useParams } from "react-router-dom";
 import Header from "../components/Header";
 
-function UserPage() {
+function ProfilePage() {
   const { id } = useParams();
 
   return (
@@ -12,4 +12,4 @@ function UserPage() {
   );
 }
 
-export default UserPage;
+export default ProfilePage;

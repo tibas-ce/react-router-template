@@ -1,16 +1,12 @@
-import { useNavigate } from "react-router-dom";
-import { navigateToAdmin, navigateToHome } from "../routes/condenator";
-
 function Header() {
-  const navigate = useNavigate();
 
   return (
     <header>
-      <button onClick={() => navigateToHome(navigate)}>
+      <button >
         Ir para página inicial
       </button>
-      <button onClick={() => navigateToAdmin(navigate)}>
-        Ir para página de admin
+      <button >
+        Ir para página de perfil
       </button>
     </header>
   );

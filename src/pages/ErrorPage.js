@@ -1,12 +1,12 @@
 import Header from "../components/Header";
 
-function AdminPage() {
+function ErrorPage() {
   return (
     <main>
       <Header />
-      <h1>Página de Admin</h1>
+      <h1>Página de Erro</h1>
     </main>
   );
 }
 
-export default AdminPage;
+export default ErrorPage;

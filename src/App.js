@@ -1,10 +1,8 @@
-import Router from "./routes/Router";
-
-
 function App() {
   return (
     <div>
-      <Router/>
+      <h1>Aula de React Router</h1>
+      {/* crie as rotas aqui */}
     </div>
   )
 }
