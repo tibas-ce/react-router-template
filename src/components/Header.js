@@ -1,14 +1,16 @@
+import {StyledHeader, StyledButton} from "../style"
+
 function Header() {
 
   return (
-    <header>
-      <button >
+    <StyledHeader>
+      <StyledButton >
         Ir para página inicial
-      </button>
-      <button >
+      </StyledButton>
+      <StyledButton >
         Ir para página de perfil
-      </button>
-    </header>
+      </StyledButton>
+    </StyledHeader>
   );
 }
 

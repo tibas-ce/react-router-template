@@ -1,8 +1,14 @@
+import Header from "./components/Header"
+import HomePage from "./pages/HomePage"
+import ProfilePage from "./pages/ProfilePage"
+import { MainContainer } from "./style"
+
+
 function App() {
   return (
-    <div>
+    <MainContainer>
       <h1>Aula de React Router</h1>
-    </div>
+    </MainContainer>
   )
 }
 

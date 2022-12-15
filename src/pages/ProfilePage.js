@@ -1,12 +1,13 @@
 import Header from "../components/Header";
+import { MainContainer } from "../style";
 
 function ProfilePage() {
 
   return (
-    <main>
+    <MainContainer>
       <Header />
       <h1>Página acerca do usuário</h1>
-    </main>
+    </MainContainer>
   );
 }
 
