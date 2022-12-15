@@ -1,6 +1,3 @@
-import Header from "./components/Header"
-import HomePage from "./pages/HomePage"
-import ProfilePage from "./pages/ProfilePage"
 import { MainContainer } from "./style"
 
 
