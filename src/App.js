@@ -1,10 +1,11 @@
 import { MainContainer } from "./style"
+import Router from "./routes/Router.js" 
 
 
 function App() {
   return (
     <MainContainer>
-      <h1>Aula de React Router</h1>
+      <Router/>
     </MainContainer>
   )
 }
